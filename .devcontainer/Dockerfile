@@ -5,7 +5,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # installing texlive and utils
 RUN apt-get update && \
-    apt-get -y install --no-install-recommends texlive texlive-latex-extra latexmk make git procps locales curl imagemagick && \
+    apt-get -y install --no-install-recommends texlive texlive-latex-extra latexmk make git procps locales curl poppler-utils && \
     rm -rf /var/lib/apt/lists/*
 
 # generating locales

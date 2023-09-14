@@ -1,0 +1,2 @@
+program = [using clause], { instruction, ";" }* ;
+using clause = "using", "static", class name ;

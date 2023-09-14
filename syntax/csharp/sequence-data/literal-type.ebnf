@@ -1,0 +1,11 @@
+int literal = whole number;
+
+long literal = whole number, 'L';
+
+unsigned int literal = whole number, 'U';
+
+unsigned long literal = whole number, 'UL';
+
+float literal = real number , "f" | "F" ;
+
+double literal = real number , "d" | "D" ;
