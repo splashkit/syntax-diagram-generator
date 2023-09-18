@@ -1,0 +1,7 @@
+class declaration = "class", class name, class block ;
+
+class name = identifier ;
+
+class block = "{", { [ access modifier, field declaration | method delcaration | property declaration ] }+ "}" ;
+
+access modifier = ("public" | "private") ;
