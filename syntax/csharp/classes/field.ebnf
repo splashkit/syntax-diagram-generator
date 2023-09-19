@@ -1,0 +1,5 @@
+field declaration = ["const"], type name, variable name, ";" ;
+
+type name = identifier ;
+
+variable name = identifier ;
