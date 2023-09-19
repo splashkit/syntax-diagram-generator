@@ -1,0 +1,13 @@
+method declaration = return type, method name, "(", parameter list, ")", block ;
+
+parameter list = {parameter delcaration}*(",") ;
+
+parameter declaration = type name, parameter name ;
+
+block = "{", statements, "}" ;
+
+statements = {statement, ";"}* ;
+
+return type = identifier ;
+
+method name = identifier ;
