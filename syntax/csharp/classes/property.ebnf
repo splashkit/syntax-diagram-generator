@@ -1,0 +1,11 @@
+property declaration = type name, property name, "{", properties, "}" ;
+
+properties = ["get", block], ["set", block] ;
+
+block = "{", statements, "}" ;
+
+statements = {statement, ";"}* ;
+
+type name = identifier ;
+
+property name = identifier ;
