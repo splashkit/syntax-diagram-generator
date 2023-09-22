@@ -1,0 +1,5 @@
+field access = object name, ".", field name ;
+
+object name = identifier ;
+
+field name = identifier ;
