@@ -1,1 +1,1 @@
-method call = method name, "(", { argument }*(",") ")" ;
+method call = method name, "(", { argument }*(",") ")", ";" ;

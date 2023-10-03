@@ -1,2 +1,4 @@
 out
 **/__pycache__
+syntax/csharp/sequence-data/program.ebnf
+.DS_Store
