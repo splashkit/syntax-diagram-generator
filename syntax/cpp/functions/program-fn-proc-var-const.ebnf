@@ -1,0 +1,7 @@
+program = {header include | using directive}*, declarations ;
+
+header include = "#include", "<" | '"', library name, ">" | '"' ;
+
+using directive = "using", namespace name, [ "::", identifier ], ";";
+
+declarations = { procedure declaration | function declaration | variable declaration }* ;

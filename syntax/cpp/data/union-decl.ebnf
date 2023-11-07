@@ -1,0 +1,9 @@
+union decl. = "union", [union name], "{", field list, "}", ";";
+
+field list = { field declaration }+(";") ;
+
+field decl. = type name, field name;
+
+union name = identifier ;
+
+field name = identifier ;

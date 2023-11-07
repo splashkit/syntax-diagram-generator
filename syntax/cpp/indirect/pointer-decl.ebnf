@@ -1,0 +1,7 @@
+parameter decl. = [ "const" ], type name, [ "*" | "&" ] , parameter name ;
+
+variable decl. = [ "const" ], type name, {individual variable decl}+(","), ";" ;
+
+ind. var. decl. = [ "*" ], variable name, [ "=", expr list];
+
+field decl. = type name, [ "*" ], field name;

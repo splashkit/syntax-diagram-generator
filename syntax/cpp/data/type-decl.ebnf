@@ -1,0 +1,5 @@
+type decl. = "typedef", enum declaration | struct declaration | type name, typedef names, ";";
+
+typedef names = { [const], typedef name }+(",") ;
+
+typedef name = identifier ;

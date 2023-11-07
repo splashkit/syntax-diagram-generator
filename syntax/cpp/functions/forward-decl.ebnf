@@ -1,0 +1,3 @@
+function fwd decl = type, function name, "(", parameter list, ")", ";";
+
+variable fwd decl = [ const ], "extern", type, variable name, [ "=", expression ], ";";

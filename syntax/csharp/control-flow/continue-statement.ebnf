@@ -1,1 +1,1 @@
-continue statement = "continue";
+continue statement = "continue", ";";

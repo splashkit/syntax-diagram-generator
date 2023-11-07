@@ -1,0 +1,5 @@
+program = {header include }*, declarations ;
+
+header include = "#include", "<" | '"', library name, ">" | '"' ;
+
+declarations = { procedure declaration | function declaration | variable declaration | type declaration }* ;

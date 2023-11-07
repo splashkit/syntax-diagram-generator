@@ -1,0 +1,9 @@
+struct decl. = "struct", [ struct name ], "{", field list, "}", ";";
+
+field list = { field declaration }+(";") ;
+
+field decl. = type name, field name;
+
+struct name = identifier ;
+
+field name = identifier ;

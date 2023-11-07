@@ -1,0 +1,5 @@
+type cast = c type cast | function type cast;
+
+c type cast = "(", type name, ")", expression;
+
+function type cast = type name, "(", expression, ")";
