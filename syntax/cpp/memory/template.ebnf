@@ -1,0 +1,2 @@
+
+generic decl. = "template", "<", "typename", identifier, ">", function declaration | type declaration;

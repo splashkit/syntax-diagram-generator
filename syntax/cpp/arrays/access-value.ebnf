@@ -1,0 +1,7 @@
+value path =  { "*" }*, variable name, { field access | array access  }*;
+
+field access = "." | "->", field name;
+
+array access = {"[", index value, "]"}+;
+
+index value = expression;
