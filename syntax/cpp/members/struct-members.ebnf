@@ -1,0 +1,3 @@
+struct decl. = "struct", [ struct name ], "{", member list, "}", ";";
+
+member list = { field declaration | constructor declaration | method declaration | operator declaration }+;

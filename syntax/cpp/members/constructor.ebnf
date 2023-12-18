@@ -1,0 +1,2 @@
+
+constructor decl = struct name, "(", parameter list ,")", block ;
