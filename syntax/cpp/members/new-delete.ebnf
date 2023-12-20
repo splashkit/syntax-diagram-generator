@@ -1,0 +1,3 @@
+new = "new", struct name, "(", parameter list, ")";
+
+delete = "delete", pointer;
