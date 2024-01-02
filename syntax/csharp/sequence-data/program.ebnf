@@ -1,4 +1,4 @@
-program = [using clause], { statement }* ;
-using clause = "using", "static", class name ;
+program = [using directive], { statement }* ;
+using directive = "using", "static", class name ;
 
 statement = variable declaration | method call | assignment statement;
