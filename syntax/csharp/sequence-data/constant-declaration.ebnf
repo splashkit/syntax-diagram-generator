@@ -1,0 +1,5 @@
+constant decl. = const, type name, { constant name, "=", expression }+(",") , ';' ;
+
+constant name = identifier ;
+
+type name = identifier ;
