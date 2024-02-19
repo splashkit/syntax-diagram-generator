@@ -1,0 +1,5 @@
+function decl. = type name, function name, "()", block ;
+
+function name = identifier ;
+
+block = "{", {statement}*, "}" ;
