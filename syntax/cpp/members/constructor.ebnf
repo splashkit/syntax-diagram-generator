@@ -1,2 +1,4 @@
 
 constructor decl = struct name, "(", parameter list ,")", block ;
+
+destructor decl = "~", struct name, "(" ,")", block ;

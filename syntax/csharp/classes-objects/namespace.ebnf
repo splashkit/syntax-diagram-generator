@@ -1,0 +1,1 @@
+namespace declaration = "namespace", identifier, "{", { namespace declaration | class declaration | struct declaration }* , "}" ;

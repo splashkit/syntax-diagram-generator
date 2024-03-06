@@ -2,6 +2,8 @@ class declaration = "class", class name, block ;
 
 class name = identifier ;
 
-block = "{", { [ access modifier, field declaration | constructor declaration | method delcaration | property declaration ] }+ "}" ;
+block = "{", { [ member declaration ] }+ "}" ;
+
+member decl. = access modifier, ["static"], field declaration | constructor declaration | method delcaration | property declaration;
 
 access modifier = ("public" | "private") ;

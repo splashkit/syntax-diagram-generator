@@ -1,4 +1,6 @@
-method declaration = return type, method name, "(", parameter list, ")", block ;
+method declaration = scope, ["static"], return type, method name, "(", parameter list, ")", block ;
+
+scope = "public" | "private";
 
 parameter list = {parameter delcaration}*(",") ;
 

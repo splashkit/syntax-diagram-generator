@@ -1,0 +1,3 @@
+array decl. = type name, "[]", variable name, "=", expression;
+
+array creation = "new", type name, "[", size, "]", [  "{", value list, "}" ];

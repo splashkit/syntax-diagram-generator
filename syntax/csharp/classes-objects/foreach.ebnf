@@ -1,0 +1,1 @@
+foreach loop = "foreach", "(", type, variable, "in", collection, ")", statement;

@@ -1,0 +1,1 @@
+using directive = "using", ( namespace name | ("static", full class name)  ), ";";

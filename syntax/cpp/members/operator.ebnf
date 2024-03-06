@@ -1,0 +1,6 @@
+method operator decl. = array subscript operator ;
+general operator decl. = comparison operator ;
+
+array subscript op. = ["const"], type name, "&", "operator", "[]", "(", params ,")", block ;
+
+comparison op. = "bool", "operator", "<" | "<=" | ">" | ">=" | "==" | "!=", "(", parameter list, ")", block ;

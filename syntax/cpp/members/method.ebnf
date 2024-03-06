@@ -1,0 +1,1 @@
+method decl. = type name, function name, "(", parameter list ,")", ["const"],  block ;
